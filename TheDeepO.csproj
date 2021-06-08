@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\CODEOWNERS" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\CONTRIBUTING.md" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\dependabot.yml" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\FUNDING.yml" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\ISSUE_TEMPLATE\bug_report.md" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\ISSUE_TEMPLATE\config.yml" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\ISSUE_TEMPLATE\feature_request.md" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\release-drafter.yml" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\SUPPORT.md" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\workflows\browserstack.yml" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\workflows\bundlewatch.yml" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\workflows\codeql.yml" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\workflows\css.yml" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\workflows\docs.yml" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\workflows\js.yml" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\workflows\lint.yml" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\workflows\node-sass.yml" />
+    <None Include="wwwroot\wwwroot\lib\bootstrap\.github\workflows\release-notes.yml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.2" />
+	  <PackageReference Include="Microsoft.AspNetCore.All"/>
+	  <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
