@@ -2,11 +2,10 @@
 
 @foreach (var i in Model.Inventories)
             {
-                <div>
-                    <h3>@i.ItemName</h3>
-                    @i.ItemIdentifier
-                    @i.Description
-                    <h4>@i.Price.ToString("c")</h4>
-                </div>
+                @Html.Partial("InventorySummary", i)
             }
-<div page-model="@Model.PagingInfo" page-action="List"></div>
+<div page-model="@Model.PagingInfo" page-action="List" page-classes-enabled="true"
+     page-class="btn" page-class-normal="btn-secondary"
+     page-class-selected="btn-primary" page-url-category="@Model.CurrentCategory"
+     class="btn-group pull-right m-1">
+</div>

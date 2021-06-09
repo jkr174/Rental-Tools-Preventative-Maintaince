@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TheDeepO.Models
 {
-    public class FakeInventoryRepository : IInventoryRepository
+    public class FakeInventoryRepository /*: IInventoryRepository*/
     {
         public IQueryable<Inventory> Inventories => new List<Inventory> {
             new Inventory { ItemIdentifier = "PT-CH-1", ItemName = "Chainsaw", Price = 25 },

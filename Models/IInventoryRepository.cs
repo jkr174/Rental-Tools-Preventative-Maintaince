@@ -8,7 +8,7 @@ namespace TheDeepO.Models
     public interface IInventoryRepository
     {
         IQueryable<Inventory> Inventories { get; }
-        //void SaveProduct(Inventory inventory);
-        //Inventory DeleteProduct(int itemID);
+        void SaveItem(Inventory inventory);
+        Inventory DeleteItem(int itemID);
     }
 }
