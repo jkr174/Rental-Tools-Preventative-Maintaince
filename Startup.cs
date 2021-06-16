@@ -53,6 +53,10 @@ namespace TheDeepO
                     defaults: new { Controller = "Inventory", action = "List", inventoryPage = 1 });
                 routes.MapRoute(
                     name: null,
+                    template: "{category}/{subcategory}",
+                    defaults: new { Controller = "Inventory", action = "List", inventoryPage = 1 });
+                routes.MapRoute(
+                    name: null,
                     template: "",
                     defaults: new { Controller = "Inventory", action = "List", inventoryPage = 1 });
 

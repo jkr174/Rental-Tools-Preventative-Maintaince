@@ -9,8 +9,8 @@ using TheDeepO.Models;
 namespace TheDeepO.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210608220107_inital")]
-    partial class inital
+    [Migration("20210616004302_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -38,9 +38,15 @@ namespace TheDeepO.Migrations
                     b.Property<string>("ItemName")
                         .IsRequired();
 
+                    b.Property<int>("OnHandQty");
+
+                    b.Property<int>("OutQty");
+
                     b.Property<decimal>("Price");
 
                     b.Property<string>("Subcategory");
+
+                    b.Property<int>("TotalQty");
 
                     b.HasKey("ItemID");
 

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace TheDeepO.Migrations
 {
-    public partial class inital : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -18,7 +18,10 @@ namespace TheDeepO.Migrations
                     Description = table.Column<string>(nullable: false),
                     Price = table.Column<decimal>(nullable: false),
                     Category = table.Column<string>(nullable: false),
-                    Subcategory = table.Column<string>(nullable: true)
+                    Subcategory = table.Column<string>(nullable: true),
+                    OnHandQty = table.Column<int>(nullable: false),
+                    OutQty = table.Column<int>(nullable: false),
+                    TotalQty = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

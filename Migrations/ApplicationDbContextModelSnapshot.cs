@@ -36,9 +36,15 @@ namespace TheDeepO.Migrations
                     b.Property<string>("ItemName")
                         .IsRequired();
 
+                    b.Property<int>("OnHandQty");
+
+                    b.Property<int>("OutQty");
+
                     b.Property<decimal>("Price");
 
                     b.Property<string>("Subcategory");
+
+                    b.Property<int>("TotalQty");
 
                     b.HasKey("ItemID");
 

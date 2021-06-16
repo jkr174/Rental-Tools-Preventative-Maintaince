@@ -32,6 +32,9 @@ namespace TheDeepO.Models
                     dbEntry.Price = inventory.Price;
                     dbEntry.Category = inventory.Category;
                     dbEntry.Subcategory = inventory.Subcategory;
+                    dbEntry.OnHandQty = inventory.OnHandQty;
+                    dbEntry.OutQty = inventory.OutQty;
+                    dbEntry.TotalQty = inventory.TotalQty;
                 }
             }
             context.SaveChanges();
