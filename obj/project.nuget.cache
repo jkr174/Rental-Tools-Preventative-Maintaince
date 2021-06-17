@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ab5W5/yNA7Vc4Mt4cCDWDKlgS/C72yiZNFt3QPv1ifchXxTOSPt44WK/0TMKA8WsxfQmKbFriE7KI8RY2i9MyQ==",
+  "dgSpecHash": "b2B0EffbpPhAGMnQxZpRKceg3PGNcVlm4XVK9QZbaSeg1oVgtbeVb7wQLGAm0PJxhIm5iVJL+qIRmC2jQP3yog==",
   "success": true,
   "projectFilePath": "C:\\Users\\jromo021627\\Documents\\GitHub\\Rental-Tools-Preventative-Maintaince\\TheDeepO.csproj",
   "expectedPackageFiles": [
@@ -131,10 +131,10 @@
     "C:\\Users\\jromo021627\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\2.1.2\\microsoft.entityframeworkcore.analyzers.2.1.2.nupkg.sha512",
     "C:\\Users\\jromo021627\\.nuget\\packages\\microsoft.entityframeworkcore.design\\2.1.1\\microsoft.entityframeworkcore.design.2.1.1.nupkg.sha512",
     "C:\\Users\\jromo021627\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\2.1.1\\microsoft.entityframeworkcore.inmemory.2.1.1.nupkg.sha512",
-    "C:\\Users\\jromo021627\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\2.1.1\\microsoft.entityframeworkcore.relational.2.1.1.nupkg.sha512",
+    "C:\\Users\\jromo021627\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\2.1.2\\microsoft.entityframeworkcore.relational.2.1.2.nupkg.sha512",
     "C:\\Users\\jromo021627\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\2.1.1\\microsoft.entityframeworkcore.sqlite.2.1.1.nupkg.sha512",
     "C:\\Users\\jromo021627\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\2.1.1\\microsoft.entityframeworkcore.sqlite.core.2.1.1.nupkg.sha512",
-    "C:\\Users\\jromo021627\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\2.1.1\\microsoft.entityframeworkcore.sqlserver.2.1.1.nupkg.sha512",
+    "C:\\Users\\jromo021627\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\2.1.2\\microsoft.entityframeworkcore.sqlserver.2.1.2.nupkg.sha512",
     "C:\\Users\\jromo021627\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\2.1.1\\microsoft.entityframeworkcore.tools.2.1.1.nupkg.sha512",
     "C:\\Users\\jromo021627\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.1.1\\microsoft.extensions.caching.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\jromo021627\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.1.1\\microsoft.extensions.caching.memory.2.1.1.nupkg.sha512",
