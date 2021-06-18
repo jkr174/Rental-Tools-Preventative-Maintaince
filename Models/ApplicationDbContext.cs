@@ -14,5 +14,6 @@ namespace TheDeepO.Models
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options) { }
         public DbSet<Inventory> Inventories { get; set; }
+        public DbSet<CategoryClass> Category { get; set; }
     }
 }

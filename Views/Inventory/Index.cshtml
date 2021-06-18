@@ -1,0 +1,28 @@
+﻿@model TheDeepO.Models.ViewModels.InventoryListViewModel
+@{
+    ViewData["Inventories"] = "Index";
+}
+
+<h2>Index</h2>
+<form asp-controller="Inventory" asp-action="Index" method="get">
+    <p>
+        <select asp-for="Inventories">
+            <option value="">All</option>
+        </select>
+
+        Title: <input type="text" name="SearchString">
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        @foreach (var item in Model.Inventories)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ItemName)
+                </td>
+            </tr>
+        }
+</table>

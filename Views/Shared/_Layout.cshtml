@@ -12,9 +12,15 @@
     </div>
     <div class="row m-1 p-1">
         <div id="categories" class="col-3">
-            @await Component.InvokeAsync("NavigationMenu") 
+            @await Component.InvokeAsync("NavigationMenu")
         </div>
+        
         <div class="col-9">
+            <form asp-controller="Inventory" asp-action="Index">
+                Search: <input type="text" name="SearchString">
+                <input type="submit" value="Filter" />
+            </form>
+            
             @RenderBody()
         </div>
     </div>

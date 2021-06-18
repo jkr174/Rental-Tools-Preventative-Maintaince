@@ -7,28 +7,17 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace TheDeepO.Models
 {
-    public class Inventory
+    public class CategoryClass
     {
         [Key]
-        public int ItemID { get; set; }
-        [Required(ErrorMessage = "Please enter an Item Identifier")]
-        public string ItemIdentifier { get; set; }
-        [Required(ErrorMessage = "Please enter a product name")]
-        public string ItemName { get; set; }
-        [Required(ErrorMessage = "Please enter a description")]
-        public string Description { get; set; }
-        [Required]
-        [Range(0.01, double.MaxValue,
-        ErrorMessage = "Please enter a positive price to charge per day")]
-        public decimal Price { get; set; }
-        [Required(ErrorMessage = "Please specify a category")]
+        public int CategoryId { get; set; }
+        [Required(ErrorMessage = "Please enter a Category")]
         public string Category { get; set; }
+        [Required(ErrorMessage = "Please enter a Subcategory")]
         public string Subcategory { get; set; }
-        [Required(ErrorMessage = "Please specify the On Hand quantity")]
-        public int OnHandQty { get; set; }
-        [Required(ErrorMessage = "Please specify the Out quantity")]
-        public int OutQty { get; set; }
-        [Required(ErrorMessage = "Please specify a Total quantity")]
-        public int TotalQty { get; set; }
+        public string ItemID { get; set; }
+        public List<CategoryClass> Subcategoryies { get; set; }
+        public List<Choice> Choices { get; set; }
+        public CategoryClass Parent { get; set; }
     }
 }

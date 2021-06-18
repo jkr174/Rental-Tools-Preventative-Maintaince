@@ -36,7 +36,12 @@ namespace TheDeepO
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
+
             app.UseMvc(routes => {
+                routes.MapRoute(
+                    name: null,
+                    template: "{controller=Inventory}/{action=Index}/{id?}");
+
                 routes.MapRoute(
                     name: null,
                     template: "{category}/Page{inventoryPage:int}",
